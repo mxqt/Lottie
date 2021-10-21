@@ -66,8 +66,9 @@ h3 {
 .title img{
 position: fixed;
 width: 100vw;
-justify-content: center;
-align-items: center;
+display: inline-block;
+height: 100%;
+vertical-align: middle;
 }
 
 a:hover{
