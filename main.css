@@ -55,6 +55,7 @@ h2 {
   font-family: "carta";
   font-size: 3.5em;
   margin-top: -20px;
+  text-indent: -100px;
 }
 
 h3 {
@@ -66,28 +67,21 @@ h3 {
 .title img{
 position: fixed;
 width: 100vw;
-display: inline-block;
 height: 100%;
-vertical-align: middle;
+bottom: 0;
 }
 
-a:hover{
-  text-decoration: none;
+h2:hover a{
+  text-shadow: 0 24px 400px blue, 0 0 200px green, 0 0 100px blue,32px -40px 48px blueviolet, -32px -80px 80px pink, 0 -80px 120px yellow;
+  animation: 5s infinite alternate linear;
+  opacity: 1;
 }
+  
 
-.instagram{
-  position: fixed;
-  display: flex;
-  float: left;
-  top: 0;
-  padding: 2px;
-
-}
 
 .email{
   position: fixed;
   float: right;
-  display: flex;
   top: 0;
   right: 0;
   padding: 2px;
