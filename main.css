@@ -91,6 +91,10 @@ bottom: 160px;
 
 }
 
+#email{
+  text-indent: -100px;
+}
+
 .instagram{
   position: fixed;
   float: right;
@@ -101,6 +105,10 @@ bottom: 160px;
   animation-name: load;
   animation-duration: 2s;
 
+}
+
+#instagram{
+  text-indent: 50px;
 }
 
 .port{
