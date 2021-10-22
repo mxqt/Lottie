@@ -69,10 +69,11 @@ color: #a7a9ac;
 .title img{
 position: fixed;
 width: 100vw;
-bottom: 160px;
+bottom: 0px;
 }
 
 .background img{
+  padding-bottom: 20%;
   transition: opacity 8s linear;
   animation-name: load;
   animation-duration: 8s;
