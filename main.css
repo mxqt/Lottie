@@ -75,6 +75,9 @@ color: #a7a9ac;
 position: fixed;
 width: 100vw;
 bottom: 0px;
+transition: opacity 1s linear;
+animation-name: load;
+animation-duration: 2s;
 }
 
 .background img{
